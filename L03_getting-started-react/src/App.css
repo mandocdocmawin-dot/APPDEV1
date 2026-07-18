@@ -1,0 +1,57 @@
+/* Styling para sa main container ng Profile Card */
+.profile-card {
+  background-color: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 30px;
+  max-width: 600px;
+  margin: 40px auto;
+  box-shadow: var(--shadow);
+  text-align: left;
+}
+
+/* Inaayos ang spacings ng mga headings */
+.profile-card h1 {
+  font-size: 32px;
+  margin-top: 0;
+  margin-bottom: 8px;
+  color: var(--text-h);
+}
+
+.profile-card h2 {
+  font-size: 20px;
+  color: var(--accent); 
+  margin-bottom: 24px;
+}
+
+.profile-card h3 {
+  font-size: 18px;
+  color: var(--text-h);
+  margin-bottom: 12px;
+}
+
+
+.profile-card ul {
+  padding-left: 20px;
+  margin-bottom: 24px;
+  color: var(--text);
+}
+
+.profile-card li {
+  margin-bottom: 6px;
+}
+
+
+.profile-card hr {
+  border: 0;
+  border-top: 1px solid var(--border);
+  margin: 24px 0;
+}
+
+
+.reflection-text {
+  font-style: italic;
+  line-height: 1.6;
+  color: var(--text);
+  font-size: 16px;
+}
