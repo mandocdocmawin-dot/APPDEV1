@@ -7,6 +7,7 @@ const products = [
   { id: 4, title: 'Mango', price: 4.0, isFruit: true, popular: false },
 ];
 
+// 1. Capitalized the component name and removed stray tags
 function ProductCard({ product, onAddToCart }) {
   return (
     <div className="product-card" style={{ border: '1px solid black', padding: '10px', width: '120px' }}>
@@ -27,7 +28,7 @@ function ProductCard({ product, onAddToCart }) {
 }
 
 export default function ShopApp() {
-  // Shared state to track the cart counter
+  // 2. Added state to track the shared cart counter
   const [cartCount, setCartCount] = useState(0);
 
   // Function to increase the cart count
@@ -35,20 +36,34 @@ export default function ShopApp() {
     setCartCount(cartCount + 1);
   }
 
+  // 3. Stretch Goal: Function to decrease the cart count, preventing negative numbers
+  function handleRemoveOne() {
+    if (cartCount > 0) {
+      setCartCount(cartCount - 1);
+    }
+  }
+
   return (
     <div className="shop" style={{ padding: '20px', fontFamily: 'sans-serif' }}>
       <h1>Mini Fruit & Veg Stand</h1>
 
-      {/* Cart Status Line (Remove button has been taken out) */}
+      {/* Cart Status Line and Remove Button */}
       <div className="cart-status" style={{ marginBottom: '20px', fontWeight: 'bold' }}>
         {cartCount === 0 ? (
           <span>Cart is empty</span>
         ) : (
           <span>{cartCount} items in cart</span>
         )}
+        
+        {/* Only show the remove button if there is something in the cart */}
+        {cartCount > 0 && (
+          <button onClick={handleRemoveOne} style={{ marginLeft: '15px' }}>
+            Remove one
+          </button>
+        )}
       </div>
 
-      {/* Mapping through the products array to render ProductCards */}
+      {/* 4. Mapping through the products array to render ProductCards */}
       <div className="product-list" style={{ display: 'flex', gap: '15px' }}>
         {products.map((product) => (
           <ProductCard 
