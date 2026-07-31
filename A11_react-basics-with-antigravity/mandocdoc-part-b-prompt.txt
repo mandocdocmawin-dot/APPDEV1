@@ -1,0 +1,4 @@
+Please analyze and overhaul the styling in src/App.css and src/components/tracks/SongList.css to create a premium, futuristic mobile playlist interface. Transform the current layout into a highly engaging, modern design by incorporating
+    sleek dark mode aesthetics, subtle glassmorphism, vibrant accent colors, and refined typography. Ensure the UI feels interactive and dynamic by adding smooth hover states, polished transitions, and a distinct visual hierarchy for track
+    details, optimizing specifically for a mobile-first experience. You must strictly confine all styling changes to the existing classes within these two files without altering the JSX structure, creating new files, or removing existing ones.
+  As the expected result, please provide the fully updated, complete, and production-ready CSS code for both files.
