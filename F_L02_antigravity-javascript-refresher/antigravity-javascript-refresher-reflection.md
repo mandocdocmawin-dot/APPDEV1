@@ -96,12 +96,16 @@ Explain niya naman yung button targets at kung anong event listener na ginagamit
 08_essential_features.js
 Explain how map, destructuring, and spread each work and why they matter in React. Keep it short.
 
-Ang natutunan ko rito sa Essnstial features explain niya kung paano gunagana yugn map actually nung ibang files nabanggit naman why matters yung map, tapos dito naman kung paano ginagamit yung map, destructuring, and spread kaya't kung bakit siya mahalaga sa react
+Ang natutunan ko rito sa Essnstial features explain niya kung paano gunagana yugn map actually nung ibang files nabanggit naman why matters yung map, tapos dito naman kung paano ginagamit yung map, destructuring, and spread kaya't kung bakit siya mahalaga sa react    
 
 ## 09 · Tricky Parts
 **File:** `09_tricky_parts.js`
 
-Dito naman since tricky parts siya mayroon siyang mga pinagkaiba lalo't yung == and === na nag declare one variable with no value and another set to null, ang best practices rito kapag halimbawa null yung isang loob ng variabes or hindi natin alam kung ano yung value nun mas maganda mag declare nalang ng null kesa mag undefined, halimbawa nalang yung let empty = null
+09_tricky_parts.js
+  Before running, give a prediction table for each console.log. Run it, compare with the actual output, and explain why the arrow method can't read
+  this.name.
+
+So nakita ko yung prediction ng table then by the line rin then compare niya yung actual output, after nun ni run niya then explain niya yung Why arrowMethod Can't Read this.name so natutunan ko kahit may mga gusto kang pag comparin sa mga output puwede mong gawin yun para mas ma-organize mo yung giangawa mo
 
 ## 10 · let at const
 **File:** `10_let_const.js`
