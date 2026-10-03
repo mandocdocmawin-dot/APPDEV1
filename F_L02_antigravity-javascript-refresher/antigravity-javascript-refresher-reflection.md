@@ -158,7 +158,10 @@ ang ginawa niya  explain niya muna sakin yung class constructor, and extends nas
 ## 16 · Modules: Import
 **File:** `16_modules_import.js`
 
-Ang import naman ito naman yung kung saan may export and import si import brings exported values from another file, ibig sabihin puwede mong import yung may export, Import both greet and userInfo from 15_modules_export.js and log a message using them, halimbawa nalang ito yung import { userInfo } from "./15_modules_export.js";
+> 16_modules_import.js
+  Using @15_modules_export.js, import both greet and userInfo. Explain why only one needs curly braces. If Node reports a module error, diagnose first before renaming anything.
+
+Ginawa niya muna import niya muna yung nasa @15_module.export.js tapos combined niya itosa 16 modules nna import, nakita ko rin naman na explain niya rin yung one needs curly braces nag add siya ng userinfo after nun run niya at diagnose niya yung module na knung may error
 
 ## 17 · Logical Operators
 **File:** `17_logical_operators.js`
