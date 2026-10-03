@@ -234,7 +234,23 @@ Ngayon nag implement siya ng divide(a, b) nag try/catch JSONG stringify/parse pa
 ## 22 · Async JavaScript
 **File:** `22_async_javascript.js`
 
-Ang mga callback function ang nagsisilbing pundasyon ng asynchronous programming sa JavaScript sa pamamagitan ng pagpapahintulot sa ating magpasa ng function bilang argument upang patakbuhin lamang kapag natapos na ang isang proseso tulad ng pag-fetch ng data o paghihintay sa setTimeout. kahit ganun napapagana nito ang mga operasyong na hindi nakaka-block sa pagpatuloy ng pagtakbo ng code, ang labis pag-nest ng mga callback ay maaaring magdulot ng tinatawag na "callback hell" na mahirap basahin at i-maintain. Kaya naman, ang pag-unawa sa simpleng  ito ang unang mahalagang hakbang bago lumipat sa mas malinis at modernong mga pamamaraan tulad ng Promises at async/await.
+22_async_javascript.js
+  Implement fetchUserMock(callback) and predict the output order before running. Then rewrite it as a Promise-based fetchUser() with an async showUser()
+  using try/catch. Run it and explain.
+
+Same lang rin naman ginawa niya nag fetchusermoch then explain niya yung output na binigay niya sa kin ang sabi niya 
+
+  ### 4. Explanation of Key Concepts
+
+  1. Why Synchronous Code Runs First:
+  JavaScript is single-threaded. Synchronous statements (like console.log("Name:", name)) execute immediately on the call stack. Asynchronous operations
+  (setTimeout, fetch, Promises) are offloaded to Web APIs / Node APIs, and their callbacks wait in queues (Microtask Queue for Promises, Macrotask Queue
+  for setTimeout). They only run after the call stack is completely empty.
+  2. Why async/await is Preferred over Callbacks:
+      • Avoids "Callback Hell": Chaining multiple asynchronous steps with callbacks leads to deeply nested indentation. await flattens asynchronous code so
+      it reads sequentially like synchronous code.
+      • Centralized Error Handling: With callbacks, every callback needs error parameters ((err, data)). With async/await, standard try/catch blocks handle
+      both synchronous exceptions and rejected Promises seamlessly.
 
 ## 23 · Closures at Scope
 **File:** `23_closures_scope.js`
