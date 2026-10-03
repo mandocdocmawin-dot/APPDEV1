@@ -134,7 +134,10 @@ ang ginawa niya Implementation in 12_destructuring.js niya muna po ito tapos nag
 ## 13 · Spread at Rest
 **File:** `13_spread_rest.js`
 
-Dito ko natutunan yung pinagkaiba ng Spread and Rest at kung kelan ito gagamitin halimbawa ito yung spread const newNumbers = [...numbers, 4, 5]; while sa Rest function sum(...args)
+> 13_spread_rest.js
+  Implement it and add logs proving the original numbers and user are unchanged, and that rest collects all args.
+
+Ang ginawa niya nag add muna siya sa files ko, bago niya nag implements pero bago yun  ask niya muna ako kung puwede ba siya maglagay mayroong  code and expected output tapos verification niya kung tama ba yung output niya 
 
 ## 14 · Classes at Inheritance
 **File:** `14_classes_inheritance.js`
