@@ -29,7 +29,18 @@ Ang natutunan ko rito tama naman yung requirements na binigay niya na console lo
 ## 02 · Variables
 **File:** `02_variables.js`
 
-Sa variable.js identify rito yung types and copartion, kung ano yung pinag kaiba ng tatlong === sa dalawang --, then since bolean siya identify niya yung comparison ng dalawa kung true or false, identify rito yung "" string tapos yung numbers "4" Kahit anong numbers Kahit float is yung type niya numbers
+> Open 02_variables.js in F_L02_antigravity-javascript-refresher.
+  Read-only: do not modify, create, or delete anything.
+  
+  Briefly explain, with one short example each:
+  - string, number, boolean
+  - typeof
+  - == vs ===
+  
+  Then give a short implementation plan (3-5 steps) for the exercise.
+  If the file isn't in that folder, tell me instead of guessing.
+
+  Ang natutunan ko rito is bago mag is explain niya kung ano yung laman ng file
 
 ## 03 · Functions
 **File:** `03_functions.js`
