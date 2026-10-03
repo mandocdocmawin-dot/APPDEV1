@@ -126,7 +126,10 @@ Sa Arrow function hindi niya lang ginawa kung paano niya ito nirurun kundi kung 
 ## 12 · Destructuring
 **File:** `12_destructuring.js`
 
-Ang destructuring ay isa sa mga pinakamahalagang JavaScript features na nagpapabilis at nagpapalinis sa pagsusulat ng code. Sa halip na paulit-ulit na mag-type ng person.name o hobbies[0], pinapayagan tayo nitong kunin agad ang kailangang values sa iisang linya, at kapag ginamit ito diretso sa function parameters tulad ng printName({ name })
+12_destructuring.js
+Implement it and run it. Explain object, array, and function-parameter destructuring.
+
+ang ginawa niya Implementation in 12_destructuring.js niya muna po ito tapos nagbigay narin siya ng expected output nito then explain niya na rin yung Concepts Explained yung mga ginamit niya na object, array, and  function-parameter destructuring
 
 ## 13 · Spread at Rest
 **File:** `13_spread_rest.js`
