@@ -60,7 +60,19 @@ Explain niya yung nag create siya ng aboutmeat pinakita niya rin kung paano yung
 ## 05 · Arrays
 **File:** `05_arrays.js`
 
-ang natutunan ko yung push() na nag add sa dulo, shift() naman po ay nag remove ng from the front at sa loob ng aray puweden gamitan ng for loop na puwedeng iterate at puwede mo rin siyang gamitan ng map() if may gusto kang i-add halimbawa  yung "i Like " + food, kung ang food mo ay array
+05_arrays.js
+Implement it and run it. Tell me which operations mutate the array, which return a new one, and why .map() matters for React.
+
+Ang ginawa niya explain niya yung details then return on niya, details niya rin naman kung bakit map() matters diko lang sure kung exact  yung explanation niya pero explain niya rin naman po ang sabi niya rin naman kasi  1. Rendering Dynamic Lists in JSX:
+  In React, statements like for loops cannot be written inside JSX curly braces {}. Because .map() is an expression that returns a new array, it allows
+  transforming data directly into React elements inline:
+    <ul>
+      {favoriteColors.map((color, index) => (
+        <li key={index}>{color}</li>
+      ))}
+    </ul>
+
+so rama rin naman po
 
 ## 06 · Control Structures
 **File:** `06_control_structures.js`
