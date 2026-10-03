@@ -93,7 +93,10 @@ Explain niya naman yung button targets at kung anong event listener na ginagamit
 ## 08 · Essential Features
 **File:** `08_essential_features.js`
 
-ito natutunan yung three features ginamitan siya ng map() to transform an array tapos ginamitan siya ng spread operator halimbawa nito yung const newNumbers = [...numbers, 4, 5] ssa loob ng array if maglalagay kapa at may extend kapa gagamitan lang yung spread operator 
+08_essential_features.js
+Explain how map, destructuring, and spread each work and why they matter in React. Keep it short.
+
+Ang natutunan ko rito sa Essnstial features explain niya kung paano gunagana yugn map actually nung ibang files nabanggit naman why matters yung map, tapos dito naman kung paano ginagamit yung map, destructuring, and spread kaya't kung bakit siya mahalaga sa react
 
 ## 09 · Tricky Parts
 **File:** `09_tricky_parts.js`
