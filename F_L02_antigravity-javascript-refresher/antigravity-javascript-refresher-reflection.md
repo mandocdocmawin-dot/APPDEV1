@@ -259,3 +259,15 @@ Same lang rin naman ginawa niya nag fetchusermoch then explain niya yung output 
   Explain why insideBlock fails outside the if block, then run it. Explain step by step why counterA and counterB don't share a count, and how that's like useState. Beginner-friendly, no deep React internals.
 
 Explain niya rito yung insideblock sa loobng fails outside the if block explain niya naman tapos ginawa niya nag step by step para kung aano ginawa tapos ginawa niya rin yung  4. How This Relates to React's useState
+
+## agent-subagent-skill
+
+### Reflection
+
+Gumawa ako ng sarili kong agent (`viva-coach`), subagent (`concept-scanner`), at skill (`defense-notes`). Ang `viva-coach` ang nagko-coach sa akin na ipagtanggol ang code ko, ang `concept-scanner` ang read-only na nag-i-scan ng isang file, at ang `defense-notes` ang gumagawa ng defense card para sa file.
+
+Pinatakbo ko sila sa Antigravity CLI. Pinili ko ang `viva-coach`, nag-spawn ito ng tatlong `concept-scanner` para sa tatlong file, at pinagsama ang resulta sa isang table. Pagkatapos, pinatakbo ko ang `/defense-notes @13_spread_rest.js` para makakuha ng defense notes.
+
+Ang pinakamahirap ay ang setup, dahil tumatakbo ang `agy` sa maling folder (`F_03`) kaya hindi lumalabas ang mga agent ko. Naayos ko ito nang buksan ko ang lab folder sa VS Code at doon ako nag-launch. Natutunan ko na ang agent ang nagpapasya kung sino ang tutulong, ang subagent ang gumagawa ng parallel na trabaho, at ang skill ang may hawak ng paulit-ulit na procedure.
+
+Screenshot: `screenshots/part2-agent-subagent-skill.jpeg`
