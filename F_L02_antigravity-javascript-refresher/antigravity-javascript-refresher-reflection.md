@@ -85,7 +85,10 @@ Actually ginawa ko wala naman akong dinagdag namali, pinacheck kolang sa kaniya 
 ## 07 · DOM
 **File:** `07_dom.html`
 
-Dito ko natutunan yung sa buttons na bago magpalit yung color mayroon siyang seconds katulad ng    setTimeout(() => { message.textContent = "This paragraph updated itself after 2 seconds!"; }, 2000); syempre ginagamitan siya ng addEventListener at nilalagyan rin ng buttons para functionable siya
+07_dom.html
+Don't modify. Explain what the button targets, the event listener used, and why setTimeout delays the paragraph change. Then give me a short browser checklist.
+
+Explain niya naman yung button targets at kung anong event listener na ginagamit thendoon sa setTimeout  • setTimeout is an asynchronous browser Web API that registers a callback function to run after a specified duration (2000 ms / 2 seconds). so kahit pala html kaya niya itong basahin
 
 ## 08 · Essential Features
 **File:** `08_essential_features.js`
