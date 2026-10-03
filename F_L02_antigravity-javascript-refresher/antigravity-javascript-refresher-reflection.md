@@ -191,7 +191,10 @@ nakita niya rin naman yung bug evaluate niya kung trun, sinabi niya na correct, 
 ## 18 · Ternary at Nullish
 **File:** `18_ternary_nullish.js`
 
-Sa modern Javascript and sa react mas laging ginagamit ang ternary compare sa statement, ang lagi na ginagamit ng mga developer yung condition katulad ng const result = score >= 70 ? "Pass" : "Fail"; ?. safely reads a nested property and stops with undefined instead of throwing and ?? then supplies a fallback 
+> 18_ternary_nullish.js
+  Implement the pass/fail and even/odd ternaries. Add examples comparing age || 18 and age ?? 18 for 0, null, and undefined. Explain which is safer for API data.
+
+Dito ang aking natutunan ginawa niya nag pa implement muna siya at nag add ng mga examples tapos pinakita niya true code at kung confused tayo tapos kung safe ba siya sa API  ?? (Nullish Coalescing) is significantly safer. sinabi niya na significantly safer naman siya at nagbigay rin ng problem counter and solution since mahaba yung screenshots bali ayun din naman yung ginawa niya
 
 ## 19 · Strings at Numbers
 **File:** `19_strings_numbers.js`

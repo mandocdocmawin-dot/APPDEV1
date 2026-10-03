@@ -1,22 +1,20 @@
-const readline = require('readline');
-const rl = readline.createInterface({ input: process.stdin, output: process.stdout });
+// 1. Pass / Fail Ternary
+const score = 72;
+const result = score >= 70 ? "Pass" : "Fail";
+console.log(`Score: ${score} -> ${result}`);
 
+// 2. Even / Odd Ternary
+const num = 7;
+const parity = num % 2 === 0 ? "even" : "odd";
+console.log(`Number: ${num} -> ${parity}`);
 
-// const score = 72;
-// const result = score >= 70 ? "Pass" : "Fail";
-// console.log(result); // "Pass"
+console.log("\n--- Comparison: age || 18 vs age ?? 18 ---");
 
-// const num = 7;
-// console.log(num % 2 === 0 ? "even" : "odd"); // "odd"
+// 3. Comparison for 0, null, and undefined
+const testAges = [0, null, undefined];
 
-rl.question('Enter your scores: ', (scores) => {
-    const names = "Marwin";
-
-    const score = scores;
-    const result = score >= 70 ? "Pass" : "Fail";
-    console.log(names, "Your results:", result); 
-
-    const num = scores;
-    console.log(num % 2 === 0 ? "even" : "odd"); 
-    rl.close();
-});   
+testAges.forEach((age) => {
+  console.log(`When age is ${age}:`);
+  console.log(`  age || 18 -> ${age || 18}`);
+  console.log(`  age ?? 18 -> ${age ?? 18}`);
+});
