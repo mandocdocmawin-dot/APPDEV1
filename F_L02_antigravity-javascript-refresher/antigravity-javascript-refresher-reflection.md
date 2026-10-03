@@ -255,4 +255,7 @@ Same lang rin naman ginawa niya nag fetchusermoch then explain niya yung output 
 ## 23 · Closures at Scope
 **File:** `23_closures_scope.js`
 
-Ang let at const ay block-scoped kaya't mapapansin natin hindi lumalabas ang variables sa {} block kung saan sila idineklara para maiwasan ang bugs. Samantala, ang closure naman ay nagpapahintulot sa function na maalala ang variables mula sa outer scope nito kahit natapos na itong tumakbo isang mahalagang pundasyon para sa mga React Hooks tulad ng useState. at isa pa rito halimbawa natin yung createCounter() kung sa loob nito mayroon tayong increment na kung saan nag add ng isa then mayroon tayong counterA and counterB, so kapag paulit mong tinawag si counterA ngayon lalabas siya a 2 pero kapag tinawag mo sa counter B  instead na mag increment siya since iba siya ng variable and value so hindi siya mag increment Nang halimbawa natin yung pindutin ng Guard ng Gate 1 ang clicker niya nang dalawang beses (counterA()), naging 2 ang bilang sa Gate 1. Pagkatapos, nang pindutin naman ng Guard ng Gate 2 ang clicker niya sa unang beses (counterB()), 1 pa lang ang lalabas sa kanya dahil magkaiba at hiwalay ang hawak nilang aparato.
+> 23_closures_scope.js
+  Explain why insideBlock fails outside the if block, then run it. Explain step by step why counterA and counterB don't share a count, and how that's like useState. Beginner-friendly, no deep React internals.
+
+Explain niya rito yung insideblock sa loobng fails outside the if block explain niya naman tapos ginawa niya nag step by step para kung aano ginawa tapos ginawa niya rin yung  4. How This Relates to React's useState
