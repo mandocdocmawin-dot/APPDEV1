@@ -110,7 +110,10 @@ So nakita ko yung prediction ng table then by the line rin then compare niya yun
 ## 10 · let at const
 **File:** `10_let_const.js`
 
-Ang aking natutunan dati yung var is the old way na ginagamit pero ngayon kasi sa modern is ang ginagamit na lang yung const and let for example kung nagbabago yung pangalan gamitin yung let, while kapag sa const hindi na nababago mag error na siya kapag nag assign ka pa ng bagong value
+10_let_const.js
+Review the declarations. Explain when to use const, let, and why to avoid var. Suggest one improvement only, don't edit.
+
+Ang natutunan ko rito sa let_const.js lalo na sa pag prompt lalo't halimbawa kung baguhan lang ako tapos diko alam yung let, const, and var so dito explain na ni AI kung paano siya mag work lalo't hindi mo siya alam gamitin puwede rin tayong manghingi ng suggestion to improve
 
 ## 11 · Arrow Functions
 **File:** `11_arrow_functions.js`
