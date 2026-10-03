@@ -226,7 +226,10 @@ Ang natutunan ko gumawa siya ng short table then chinicheck niya rin kung kelan 
 ## 21 · Errors at JSON
 **File:** `21_errors_json.js`
 
-Ang paggamit ng try, catch, at throw ay napakahalaga sa JavaScript upang maging ligtas ang ating application laban sa mga hindi inaasahang error, tulad ng pag-fetch ng data sa API o pagproseso ng maling input. Sa halip na tuluyang mag-crash ang buong programa kapag nagkaroon ng problema tulad ng pag-divide sa zero pinapayagan tayo nitong mag-throw ng custom error at mahuli ito sa catch block upang makapaglabas ng mas malinaw at friendly na mensahe sa user na nag handle ng eror para hindi magulat si user once nag ka error.
+ 21_errors_json.js
+  Implement divide(a, b) with try/catch and the JSON stringify/parse part. List success and failure cases first, run it, and explain why catch prevents a crash.
+
+Ngayon nag implement siya ng divide(a, b) nag try/catch JSONG stringify/parse part catch prevents niya rin yung crash
 
 ## 22 · Async JavaScript
 **File:** `22_async_javascript.js`
