@@ -199,7 +199,10 @@ Dito ang aking natutunan ginawa niya nag pa implement muna siya at nag add ng mg
 ## 19 · Strings at Numbers
 **File:** `19_strings_numbers.js`
 
-Sa string numbers itinuro rito yung paggamit ng split(), trim(), toUpperCase(), includes(), slice() sa paggamit ng string may different na built na method na puwede mong gamitin na call mo nalang kesa gumawa pa ng algorithm para mas mapabilis si developer at may different ito kung paano mo gagamitin 
+19_strings_numbers.js
+Implement the exercises. Explain which methods help with cleaning input, search, price formatting, and detecting invalid numbers.
+
+Ngayon ginawa niya nag implement muna siya ng exercise tapos breakdown niya yung methods at nakatable na rin siya para mas organize siya
 
 ## 20 · Array Methods
 **File:** `20_array_methods.js`
