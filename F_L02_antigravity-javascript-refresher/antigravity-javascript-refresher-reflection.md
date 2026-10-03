@@ -77,7 +77,10 @@ so rama rin naman po
 ## 06 · Control Structures
 **File:** `06_control_structures.js`
 
-Ang natutunan ko rito may tatlong control structures which is  yung if else, for loop, and while loop dito makikita yung mga condition na puwedeng implement lalo't gamit-gamit rin siya sa react js lalo kapag nag rendering ng song title at iba pa
+ 06_control_structures.js
+  The grade checker is wrong. Reproduce the output, explain the root cause, and propose the smallest fix. Don't edit until I approve.
+
+Actually ginawa ko wala naman akong dinagdag namali, pinacheck kolang sa kaniya kung talaga bang nababasa niya yung laman ng files ko pero may sinabi siya na   1. Incorrect Honors Threshold: so kahit na wala akong minamali cinocorrect niya naman yung pamamaraan 
 
 ## 07 · DOM
 **File:** `07_dom.html`
