@@ -207,7 +207,21 @@ Ngayon ginawa niya nag implement muna siya ng exercise tapos breakdown niya yung
 ## 20 · Array Methods
 **File:** `20_array_methods.js`
 
-Sa paggamit ng array methods mayroon rin itong iba't ibang method na puwede mong gamitin tulad ng filter(), map(), find(), some(), every(), and sort(), gaya ng sabi ko sa string numbers instead na gumawa kapa ng algorithm dahil nag adjust si Javascript for developer na buo ang mga methods na ito upang mas higit na matulungan rin si developer.
+20_array_methods.js
+  Implement it and run it. Give a short table of when to use filter, find, some, every, and sort. Then suggest one improvement only, don't edit.
+
+Ang natutunan ko gumawa siya ng short table then chinicheck niya rin kung kelan ginagamit yung mga methods, then nag bigay rin siya ng suggestion since mahaba yung screenshots baba ko nalang rito yung sinasabi niyang improvements
+  ### One Suggested Improvement
+
+  Use optional chaining when logging the .find() result:
+
+    // Safely handle cases where the student might not exist
+    console.log(perfecto?.name ?? "Student not found");
+
+  Reason: If .find() finds no match, it returns undefined. Direct property access (perfecto.name) would throw an unhandled TypeError: Cannot read
+  properties of undefined (reading 'name').
+
+  (No edits made to the file.)
 
 ## 21 · Errors at JSON
 **File:** `21_errors_json.js`
