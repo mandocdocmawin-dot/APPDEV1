@@ -52,7 +52,10 @@ after niyang irun yung bawa't function nakita ko rin yung output niya, maganda i
 ## 04 · Objects
 **File:** `04_objects.js`
 
-Ang natutunan ko is sa object puwede pang maglagay ng array at sa loob ng object kahit ang var ay puwede mong tawagin outside the variable na object at sa object kung mag add ka need mo lang gawin yung aboutMe.hobby = "Drawing"; mayroon na ito sa loob ng object
+ 04_objects.js
+  Create aboutMe with name, age, course, and introduce(). First explain why introduce() must be a regular function, not an arrow function.
+
+Explain niya yung nag create siya ng aboutmeat pinakita niya rin kung paano yung regular function hindi yung not an arrow function 
 
 ## 05 · Arrays
 **File:** `05_arrays.js`
