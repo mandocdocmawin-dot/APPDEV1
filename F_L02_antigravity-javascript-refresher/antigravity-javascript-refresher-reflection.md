@@ -118,7 +118,10 @@ Ang natutunan ko rito sa let_const.js lalo na sa pag prompt lalo't halimbawa kun
 ## 11 · Arrow Functions
 **File:** `11_arrow_functions.js`
 
-Actually first time ko ito yung arrow function diko talaga siya alam pero nung naintindihan ko siya nung naitruo sa javascript refresher yung implicit return that skips the {} while naman kapag ginagamit yung {} is explicit, ang implicit ginagamit ng ()
+> 11_arrow_functions.js
+  Convert the required functions to arrow functions and run it. Point out which use implicit return and which use a body.
+
+Sa Arrow function hindi niya lang ginawa kung paano niya ito nirurun kundi kung paano niya rin ito Analyze at nagbigay pa nga siya ng difference ng Implicit Return vs. Function Body so ginagawa niya is nag different niya yung mga puwede nating gamitin
 
 ## 12 · Destructuring
 **File:** `12_destructuring.js`
