@@ -45,7 +45,9 @@ Ang natutunan ko rito tama naman yung requirements na binigay niya na console lo
 ## 03 · Functions
 **File:** `03_functions.js`
 
-Ang function package kung saan reusable code na puwede mong gamitin ng hindi paulit-ulit yung code syempre mayroon parin siyang finafollow na exact same naming rules as variable at natutunan ko pa rito po yung may action siyang ginagawa kung saan pinapasa mo by parameter
+prompt: Implement greet(name) as a declaration, square(num) as an arrow function, and calculator(a, b) returning an object. Run it. If it fails, explain the error first.
+
+after niyang irun yung bawa't function nakita ko rin yung output niya, maganda itong antivigravity dahil marunong rin siya kung paano mag run ng isang code
 
 ## 04 · Objects
 **File:** `04_objects.js`
