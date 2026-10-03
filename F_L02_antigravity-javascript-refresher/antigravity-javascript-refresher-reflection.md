@@ -142,7 +142,10 @@ Ang ginawa niya nag add muna siya sa files ko, bago niya nag implements pero bag
 ## 14 · Classes at Inheritance
 **File:** `14_classes_inheritance.js`
 
-Ang inheritance na kung saan mayroon kang function na nag inherit ng child halimbawa mayroon tayong parent and child kung ang parent mo ay ang class Person while kapag gagamitin siya as a child ganito siya class Student extends Person
+> 14_classes_inheritance.js
+  Before editing, explain class, constructor, and extends. Then implement Person and Student.
+
+ang ginawa niya  explain niya muna sakin yung class constructor, and extends nasunod naman yung prompt ko, then nag add na siya nag implement na siya then nag output na siya
 
 ## 15 · Modules: Export
 **File:** `15_modules_export.js`

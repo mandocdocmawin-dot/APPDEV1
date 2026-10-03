@@ -1,20 +1,24 @@
 class Person {
-  constructor(name) { this.name = name; }
-  sayHello() { console.log("Hi, I am " + this.name); }
+  constructor(name) {
+    this.name = name;
+  }
 
+  sayHello() {
+    console.log("Hi, I am " + this.name);
+  }
 }
- 
+
 class Student extends Person {
-  study() { console.log(this.name + " is studying."); }
+  constructor(name, course) {
+    super(name);
+    this.course = course;
+  }
+
+  study() {
+    console.log(`${this.name} is studying ${this.course}.`);
+  }
 }
 
-class Watching extends Student {
-  watch() { console.log(this.name + " is watching."); }
-}
-
-const student = new Student("Marwin");
-const watching = new Watching("Marwin");
+const student = new Student("Marwin", "BSIS");
 student.sayHello();
 student.study();
-watching.watch();
-watching.sayHello();
