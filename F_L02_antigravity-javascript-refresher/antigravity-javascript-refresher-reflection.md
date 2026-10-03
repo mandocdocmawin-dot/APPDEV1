@@ -150,7 +150,10 @@ ang ginawa niya  explain niya muna sakin yung class constructor, and extends nas
 ## 15 · Modules: Export
 **File:** `15_modules_export.js`
 
-Ang Modules export itinuturo rito nito kung paano tayo mag exports sa another modules na puwedeng makapag share ng Javascript code between files without everything living is one giant script halimbawa nito yung export default greet; export { userInfo };
+ 15_modules_export.js
+  Explain default vs named export, then implement a default export greet and a named export userInfo.
+
+- Dito lang naman sa part na ito explain niya yung default vs named export then actually may pinakita sa akin ng mga features kung ano yung gagamitin niya so tama naman yung binigay niyang output and then yung code
 
 ## 16 · Modules: Import
 **File:** `16_modules_import.js`
