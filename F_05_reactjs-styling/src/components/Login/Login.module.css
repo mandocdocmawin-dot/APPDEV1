@@ -1,0 +1,147 @@
+.login {
+    display: flex;
+    width: 100%;
+    max-width: 1280px;
+    overflow: hidden;
+    background: var(--color-white);
+    border-radius: var(--radius-panel);
+}
+
+.left {
+    flex-shrink: 0;
+    width: 555px;
+    height: 832px;
+    border-radius: 0 var(--radius-panel) var(--radius-panel) 0;
+    background: url('../../assets/blue-white-leafy-background-vector_53876-136080 1.svg') center / cover no-repeat;
+}
+
+.right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    padding: 61px 157px 60px 136px;
+}
+
+.content {
+    width: 432px;
+    max-width: 100%;
+}
+
+.title {
+    height: 95px;
+    margin-left: -76px;
+    margin-bottom: 37px;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 100%;
+    white-space: nowrap;
+    color: var(--color-title);
+}
+
+.title span {
+    font-size: 48px;
+    font-weight: 400;
+    color: var(--color-guyss);
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    gap: 38px;
+    margin-bottom: 126px;
+}
+
+.tab,
+.tabActive {
+    position: relative;
+    height: 52px;
+    padding: 0;
+    border: none;
+    background: none;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 100%;
+    cursor: pointer;
+}
+
+.tab {
+    color: var(--color-placeholder);
+}
+
+.tabActive {
+    color: var(--color-secondary);
+}
+
+.tabActive::after {
+    content: '';
+    position: absolute;
+    left: -15px;
+    right: -15px;
+    bottom: -3px;
+    height: 3px;
+    background: var(--color-secondary);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 58px;
+}
+
+.input {
+    width: 100%;
+    height: 49px;
+    padding: 0 2px 11px;
+    border: none;
+    border-bottom: 3px solid var(--color-secondary);
+    outline: none;
+    background: transparent;
+    font-size: 24px;
+    line-height: 35px;
+    color: var(--color-secondary);
+}
+
+.input::placeholder {
+    color: var(--color-placeholder);
+}
+
+.loginBtn {
+    width: 100%;
+    height: 53px;
+    margin-top: -4px;
+    border: none;
+    background: var(--color-dark);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 100%;
+    color: var(--color-white);
+    cursor: pointer;
+}
+
+.or {
+    margin-top: 37px;
+    text-align: center;
+    font-size: 24px;
+    line-height: 35px;
+    color: var(--color-placeholder);
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 24px;
+}
+
+.socials button {
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.socials img {
+    display: block;
+    width: 36px;
+    height: 36px;
+}

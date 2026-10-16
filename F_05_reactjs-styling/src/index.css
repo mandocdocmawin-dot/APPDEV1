@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--font-main);
+    color: var(--color-secondary);
+    background: var(--color-bg);
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+button,
+input {
+    font-family: inherit;
+}

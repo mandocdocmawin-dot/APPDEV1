@@ -1,0 +1,14 @@
+:root {
+    --color-primary: #5F7C8D63;
+    --color-secondary: #5F7C8D;
+    --color-dark: #4B687A;
+    --color-placeholder: #5F7C8D8C;
+    --color-white: #FFFFFF;
+    --color-bg: #F5F5F5;
+
+    --font-main: 'Istok Web', sans-serif;
+    --color-title: #7A999C;
+    --color-guyss: #567281;
+
+    --radius-panel: 20px;
+}
