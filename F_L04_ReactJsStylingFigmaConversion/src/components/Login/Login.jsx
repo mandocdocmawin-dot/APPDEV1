@@ -32,7 +32,7 @@ export default function Login() {
                     <button>Login</button>
 
                     <p className={styles.signup}>
-                        Don't have an account? <a href="#">Signup Here</a>
+                        Don't have an account? <a href="#" onClick={(event) => event.preventDefault()}>Signup Here</a>
                     </p>
                 </div>
             </section>

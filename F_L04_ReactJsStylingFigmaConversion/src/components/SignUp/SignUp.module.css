@@ -1,0 +1,113 @@
+.content {
+  position: relative;
+  left: 2.083333cqw;
+  width: var(--form-width);
+  max-width: 80%;
+  padding-block: var(--space-6);
+}
+
+.heading {
+  margin-bottom: 3.75cqw;
+  font-size: var(--font-size-heading);
+  font-weight: var(--font-weight-bold);
+  letter-spacing: var(--letter-spacing);
+}
+
+.socialOptions {
+  display: flex;
+  justify-content: space-between;
+  gap: 4.375cqw;
+}
+
+.socialButton {
+  flex: 1;
+  min-width: 0;
+  min-height: 2.916667cqw;
+  padding: var(--space-2);
+  border: 1px solid var(--color-panel);
+  border-radius: var(--radius-small);
+  background: var(--color-surface);
+  color: var(--color-border);
+  font-family: inherit;
+  font-size: var(--font-size-small);
+  cursor: pointer;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  margin-block: 4.166667cqw;
+  color: var(--color-placeholder);
+  font-size: var(--font-size-heading);
+  font-weight: var(--font-weight-bold);
+}
+
+.divider::before,
+.divider::after {
+  content: '';
+  width: var(--font-size-heading);
+  height: 0.208333cqw;
+  background: currentColor;
+}
+
+.fields {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  width: 100%;
+  padding: var(--input-padding-top) 0 var(--input-padding-bottom);
+  margin-bottom: 1.041667cqw;
+  border: none;
+  border-bottom: 1px solid var(--color-placeholder);
+  border-radius: 0;
+  background: var(--color-surface);
+  color: var(--color-text);
+  font-family: inherit;
+  font-size: var(--font-size-small);
+  letter-spacing: var(--letter-spacing);
+}
+
+.input::placeholder {
+  color: var(--color-placeholder);
+}
+
+.input:focus {
+  outline: none;
+  border-bottom-color: var(--color-primary);
+}
+
+.createButton {
+  height: var(--button-height);
+  margin-top: var(--space-4);
+  border: none;
+  border-radius: var(--radius-button);
+  background: var(--color-primary);
+  color: var(--color-text-on-primary);
+  font-family: inherit;
+  font-size: var(--font-size-small);
+  font-weight: var(--font-weight-bold);
+  letter-spacing: var(--letter-spacing);
+  cursor: pointer;
+}
+
+.loginPrompt {
+  margin-top: var(--space-6);
+  text-align: center;
+  font-size: var(--font-size-small);
+}
+
+.loginLink {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+.socialButton:focus-visible,
+.createButton:focus-visible,
+.loginLink:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 4px;
+}
