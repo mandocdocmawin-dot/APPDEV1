@@ -20,3 +20,41 @@ body {
   width: min(94vw, 167.111111vh, 1920px);
   container-type: inline-size;
 }
+
+@media (max-width: 900px) {
+  body {
+    padding: 16px 0;
+  }
+
+  #root {
+    width: 100%;
+    /* Use readable device sizes instead of desktop canvas scaling. */
+    --font-size-small: 14px;
+    --font-size-body: 16px;
+    --font-size-heading: 28px;
+    --font-size-tagline: 28px;
+    --letter-spacing: 1px;
+    --space-2: 8px;
+    --space-4: 16px;
+    --space-6: 24px;
+    --space-7: 28px;
+    --space-9: 36px;
+    --space-15: 60px;
+    --input-padding-top: 18px;
+    --input-padding-bottom: 14px;
+    --form-heading-gap: 32px;
+    --button-height: 48px;
+    --button-height-compact: 44px;
+    --radius-small: 4px;
+    --radius-button: 8px;
+    --radius-panel: 28px;
+    --form-width: 575px;
+    --shadow-logo: 0 8px 12px rgba(60, 80, 140, 0.35);
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    padding: 0;
+  }
+}
