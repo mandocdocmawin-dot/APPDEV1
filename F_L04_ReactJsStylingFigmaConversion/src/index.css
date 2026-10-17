@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
 
 * {
   box-sizing: border-box;
@@ -7,11 +7,16 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   color: #000;
   background: #5b86e5;
   min-height: 100vh;
   display: grid;
   place-items: center;
+}
+/* Keep the same canvas proportions at different desktop window sizes. */
+#root {
+  width: min(94vw, 167.111111vh, 1920px);
+  container-type: inline-size;
 }
