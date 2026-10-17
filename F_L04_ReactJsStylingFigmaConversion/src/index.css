@@ -7,10 +7,10 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--font-family);
   font-size: 16px;
-  color: #000;
-  background: #5b86e5;
+  color: var(--color-text);
+  background: var(--color-primary);
   min-height: 100vh;
   display: grid;
   place-items: center;
